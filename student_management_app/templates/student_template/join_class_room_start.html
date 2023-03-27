@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Student Management System Live Video Conferencing Class</title>
+  <title>Live Video Conferencing Class</title>
   <meta name="description" content="WebRTC Dashboard including support for canvas drawing, canvas data syncing, video conferencing, screen sharing and video conferencing. Including chat and file sharing.">
 
   <link rel="stylesheet" type="text/css" href="{% static "others/emojionearea.min.css" %}">
@@ -91,12 +91,12 @@ input[disabled], button[disabled] {
     text-align: left;
     max-height: 200px;
     overflow: auto;
-    border-top: 1px solid #E5E5E5;
+    border-top: 1px solid #f8e005;
     width: 106%;
 }
 
 #conversation-panel .message {
-    border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid #f8e005;
     padding: 5px 10px;
 }
 
@@ -116,7 +116,7 @@ input[disabled], button[disabled] {
 hr {
     height: 1px;
     border: 0;
-    background: #E5E5E5;
+    background: #0e06ef;
 }
 
 #btn-attach-file {
@@ -152,7 +152,7 @@ hr {
 display:none!important;
 }
 </style>
-    <div style="background:#000;color:#fff;text-align:center;padding: 5px;"><h2>Student Management System Live Video Confrencing Class Room</h2></div>
+    <div style="background:#000;color:#dfe0e0;text-align:center;padding: 5px;"><h2>Live Video Confrencing Class Room</h2></div>
 <article>
 
 <div id="widget-container" style="position: fixed;bottom: 0;right: 0;left: 20%;height: 91%;border: 1px solid black; border-top:0; border-bottom: 0;top:60px;"></div>
@@ -162,7 +162,7 @@ display:none!important;
     <video id="main-video" controls playsinline autoplay></video>
     <div id="other-videos"></div>
     <hr>
-    <div style="padding: 5px 10px;background: orange;color: #fff; text-transform: capitalize;border: 1px solid grey;">
+    <div style="padding: 5px 10px;background: blue;color: hsl(200, 68%, 68%); text-transform: capitalize;border: 1px solid grey;">
         <div id="onUserStatusChanged"></div>
     </div>
 
