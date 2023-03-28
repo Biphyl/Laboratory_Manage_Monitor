@@ -22,12 +22,12 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Student</b> Management System</a>
+    <a href="../../index2.html"><b>Laboratory</b> Management System</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to Student Management System</p>
+      <p class="login-box-msg">Sign in</p>
 
       <form action="/doLogin" method="post" id="demo-form">
       {% csrf_token %}
@@ -59,13 +59,13 @@
              <a href="{% url 'password_reset' %}">Reset Password</a>
           </div><!-- /.col -->
             <div class="col-12 text-center">
-             <a href="{% url 'signup_admin' %}">Admin Signup FOR TESTING</a>
+             <a href="{% url 'signup_admin' %}"><b>Admin Signup</b></a>
           </div><!-- /.col -->
                         <div class="col-12 text-center">
-             <a href="{% url 'signup_staff' %}">Staff Signup FOR TESTING</a>
+             <a href="{% url 'signup_staff' %}"><b>Staff Signup</b></a>
           </div><!-- /.col -->
                                     <div class="col-12 text-center">
-             <a href="{% url 'signup_student' %}">Student Signup FOR TESTING</a>
+             <a href="{% url 'signup_student' %}"><b>Student Signup</b></a>
           </div><!-- /.col -->
         </div>
         <div class="row">

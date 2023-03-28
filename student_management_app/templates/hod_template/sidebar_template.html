@@ -39,7 +39,7 @@
             <a href="{{ add_staff }}" class="nav-link {% if request.path == add_staff %} active {% endif %}">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Add Staff
+                Add Lecturer
               </p>
             </a>
           </li>
@@ -49,7 +49,7 @@
             <a href="{% url 'manage_staff' %}" class="nav-link {% if request.path == manage_staff %} active {% endif %} {% if request.path == edit_staff %} active {% endif %}">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Manage Staff
+                Manage Lecturer
               </p>
             </a>
           </li>
@@ -134,7 +134,7 @@
             <a href="{% url 'staff_feedback_message' %}" class="nav-link {% if request.path == staff_feedback_message %} active {% endif %}">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Staff Feedback
+                Lecturer Feedback
               </p>
             </a>
           </li>
@@ -152,7 +152,7 @@
             <a href="{% url 'staff_leave_view' %}" class="nav-link {% if request.path == staff_leave_view %} active {% endif %}">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Staff Leave
+                Lecture Leave
               </p>
             </a>
           </li>
@@ -170,7 +170,7 @@
              <a href="{% url 'admin_send_notification_staff' %}" class="nav-link {% if request.path == admin_send_notification_staff %} active {% endif %}">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Send Staff Notification
+                Send Lecturer Notification
               </p>
             </a>
           </li>
